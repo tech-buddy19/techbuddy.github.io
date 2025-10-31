@@ -97,6 +97,28 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
+.github-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #24292e;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.github-btn:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+}
+
+.github-btn i {
+  font-size: 16px;
+}
 
 
 .skills, .contact-links { 
@@ -142,3 +164,4 @@ footer { text-align: center; font-size: 12px; color: var(--muted); margin-top: 2
 .btn:hover {
   background-color: #023e8a;
 }
+
