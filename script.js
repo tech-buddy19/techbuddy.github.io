@@ -28,6 +28,7 @@ document.querySelectorAll("nav button").forEach(btn => {
 document.querySelectorAll(".project").forEach(project => {
   project.addEventListener("mouseenter", () => gsap.to(project, { scale: 1.02, duration: 0.3 }));
   project.addEventListener("mouseleave", () => gsap.to(project, { scale: 1, duration: 0.3 }));
+  project.addEventListener("mouseleave", () => gsap.to(project, { scale: 1, duration: 0.3 }));
 });
 
 // Download current HTML
