@@ -121,9 +121,6 @@ body {
 .github-btn i {
   font-size: 16px;
 }
-.project {
-  text-align: center;
-}
 
 
 .skills, .contact-links { 
@@ -169,5 +166,6 @@ footer { text-align: center; font-size: 12px; color: var(--muted); margin-top: 2
 .btn:hover {
   background-color: #023e8a;
 }
+
 
 
