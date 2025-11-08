@@ -159,7 +159,9 @@ body {
   line-height: 1.6;
   max-width: 900px;
 }
-
+.project {
+  align-items: start;
+}
 
 footer { text-align: center; font-size: 12px; color: var(--muted); margin-top: 20px; }
 
@@ -191,6 +193,7 @@ footer { text-align: center; font-size: 12px; color: var(--muted); margin-top: 2
 .btn:hover {
   background-color: #023e8a;
 }
+
 
 
 
