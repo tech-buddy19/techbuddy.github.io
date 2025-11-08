@@ -144,8 +144,8 @@ body {
   gap: 16px;
 }
 
-/* Header row (optional if you want column labels)
-#projects::before {
+
+projects::before {
   content: "S.No | Title | Description | For More";
   display: grid;
   grid-template-columns: 60px 2fr 3fr 1fr;
@@ -154,7 +154,7 @@ body {
   color: var(--muted);
   font-size: 0.9rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-} */
+}
 
 .project {
   display: grid;
@@ -261,6 +261,7 @@ footer { text-align: center; font-size: 12px; color: var(--muted); margin-top: 2
 .btn:hover {
   background-color: #023e8a;
 }
+
 
 
 
