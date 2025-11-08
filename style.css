@@ -134,8 +134,8 @@ body {
     font-size: 13px;
   font-family: 'Inter', sans-serif;}
 
-.project { display: flex; justify-content: space-between; align-items: center; margin: 10px 0; }
-#projects {
+.myprojects { display: flex; justify-content: space-between; align-items: center; margin: 10px 0; }
+.projects {
   max-width: var(--maxw);
   margin: 60px auto;
   padding: 20px;
@@ -261,6 +261,7 @@ footer { text-align: center; font-size: 12px; color: var(--muted); margin-top: 2
 .btn:hover {
   background-color: #023e8a;
 }
+
 
 
 
